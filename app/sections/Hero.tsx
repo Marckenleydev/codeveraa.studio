@@ -150,7 +150,7 @@ export function Hero() {
           fontSize: "clamp(2.5rem, 12vw, 8.5rem)",
           fontWeight: 900,
           lineHeight: 0.9,
-          letterSpacing: "-0.03em",
+          letterSpacing: "0.03em",
           color: T.ink,
           marginBottom: "clamp(16px, 3vh, 28px)",
           maxWidth: "min(900px, 100%)"
