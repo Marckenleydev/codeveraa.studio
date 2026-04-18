@@ -108,7 +108,7 @@ function WorkCard({w,i}) {
       <div style={{position:"relative",zIndex:1,display:"flex",alignItems:"center",justifyContent:"space-between",paddingTop:20,marginTop:16,borderTop:`1px solid ${w.acc}20`}}>
         <span style={{fontFamily:"'JetBrains Mono',monospace",fontSize:11,color:`${w.acc}60`}}>{w.year}</span>
         <motion.span animate={{x:hov?0:-8,opacity:hov?1:0}} style={{fontFamily:"'Syne',sans-serif",fontWeight:700,fontSize:12,color:w.acc}}>
-          Case Study →
+       <a href={w.link} style={{textDecoration:"none"}}>   Case Study → </a> 
         </motion.span>
       </div>
       <motion.div animate={{scaleX:hov?1:0}} style={{position:"absolute",bottom:0,left:0,right:0,height:2,background:w.acc,transformOrigin:"left"}} transition={{duration:0.4}} />

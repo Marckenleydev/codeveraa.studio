@@ -126,12 +126,12 @@ export const SERVICESHome = [
 ];
 
 export const WORKS = [
-  { id:"01", title:"Aurelia",      sub:"Finance Platform",    year:"2024", tags:["Next.js","Fintech"],       desc:"Real-time trading dashboard with AI-powered insights.", bg:"#1A1508", acc:"#C8872A" },
-  { id:"02", title:"Nomad OS",     sub:"Remote Work Hub",     year:"2024", tags:["React Native","SaaS"],     desc:"All-in-one workspace for distributed teams.", bg:"#080F0A", acc:"#4A8C5C" },
-  { id:"03", title:"Botanica",     sub:"E-Commerce",          year:"2023", tags:["Next.js","3D"],            desc:"Immersive plant shop with WebGL AR previews.", bg:"#060A12", acc:"#4A6FA5" },
-  { id:"04", title:"CTRL Studio",  sub:"Brand + Digital",     year:"2023", tags:["Branding","Web"],          desc:"Complete brand identity and digital presence.", bg:"#120812", acc:"#8B5CA5" },
-  { id:"05", title:"Pulse Health", sub:"Telemedicine",        year:"2023", tags:["Mobile + Web","HIPAA"],    desc:"Platform serving 50,000+ patients globally.", bg:"#0A1212", acc:"#2E8B8B" },
-  { id:"06", title:"Vanta AI",     sub:"SaaS Writing Tool",   year:"2024", tags:["SaaS","AI"],               desc:"AI writing assistant with multi-language support.", bg:"#0A0A0A", acc:"#8C8C2E" },
+  { id:"01", title:"Ifm Luxury",      sub:"Vehicle Rental Services",    year:"2024", tags:["Next.js","Car Rental Platform"],       desc:"Real-time trading dashboard with AI-powered insights.", bg:"#1A1508", acc:"#C8872A" , link:"https://www.ifmluxurycars.com"},
+  { id:"02", title:"Aevum Clinic",    sub:"Healthcare ",                year:"2023", tags:["Mobile + Web","Healthcare Platform"],    desc:"Platform serving 50,000+ patients globally.", bg:"#0A1212", acc:"#2E8B8B", link:"https://aevum-clinic.vercel.app/" },
+  { id:"03", title:"Nomad OS",        sub:"Remote Work Hub",            year:"2024", tags:["React Native","SaaS"],     desc:"All-in-one workspace for distributed teams.", bg:"#080F0A", acc:"#4A8C5C", link:"" },
+  { id:"04", title:"Botanica",        sub:"E-Commerce",                 year:"2023", tags:["Next.js","3D"],            desc:"Immersive plant shop with WebGL AR previews.", bg:"#060A12", acc:"#4A6FA5", link:"" },
+  { id:"05", title:"CTRL Studio",     sub:"Brand + Digital",            year:"2023", tags:["Branding","Web"],          desc:"Complete brand identity and digital presence.", bg:"#120812", acc:"#8B5CA5", link:"" },
+  { id:"06", title:"Vanta AI",        sub:"SaaS Writing Tool",          year:"2024", tags:["SaaS","AI"],               desc:"AI writing assistant with multi-language support.", bg:"#0A0A0A", acc:"#8C8C2E", link:"" },
 ];
 
 export const STEPS = [
